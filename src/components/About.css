@@ -1,0 +1,63 @@
+.About{
+    width: 100%;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./flower2.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.both{
+    width: 100%;
+    height: 90vh;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(128, 128, 128, 0.237);
+    box-shadow:2px 4px 4px rgba(0,0,0,0.7);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+.both h2{
+    color:rgba(128, 128, 0, 0.76);
+    text-shadow: 2px 4px 4px rgba(255,255,255,0.7);
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.left{
+    width: 450px;
+    height: 450px;
+    border:none;
+    outline: none;
+    background-color:transparent;
+    border-radius: 50%;
+    transform: translateY(15%);
+    background-image: url(./girl4.avif);
+    background-position:left;
+    background-size: cover;
+   margin-right: 50px;
+}
+.right{
+    width: 50%;
+    font-size: 1.2rem;
+    margin-left: 60px;
+   
+}
+
+.right-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    line-height: 1.7;
+    padding-left: 50px;
+    text-indent:3rem;
+}

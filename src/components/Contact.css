@@ -1,0 +1,97 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.up{
+    width: 100%;
+    height: 50vh;
+    background-color:rgba(240, 218, 218, 0.76);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50vh;
+}
+.up h2{
+    font-size: 50px;
+    font-weight: 600;
+    color:snow;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    margin-bottom: 0;
+}
+.upinside{
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 220px;
+    padding: 30px;
+    gap: 10px;
+    margin-left: 20px;
+  
+}
+.upinside input{
+    padding: 15px;
+    border-radius: 5px;
+    border: snow;
+    font-size: 1rem;
+}
+.button{
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.down{
+    width: 100%;
+    height: 50vh;
+    background-color: palevioletred;
+    display: flex;
+
+}
+.downinside{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.downinside h1{
+    color: snow;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    font-size: 50px;
+    margin: 0;
+}
+.downinside h2{
+    color: snow;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    font-size: 25px;
+}
+.downinside p{
+    font-size: 15px;
+    color: snow;
+}
+.side{
+    width: 350px;
+    height: 400px;
+    background-color: snow;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    transform: translateY(-50%);
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:0;
+}
+.side h4{
+    font-size: 20px;
+}
+.side p{
+    font-size: 20px;
+    color: black;
+    text-shadow: none;
+}

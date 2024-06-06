@@ -1,0 +1,93 @@
+.Port{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bgwhite.webp);
+    box-sizing: border-box;
+}
+.folio{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+.one{
+    background-image: url(./website.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.one:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.7);
+
+}
+.two{
+    background-image: url(./website3.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.two:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+ 
+}
+.three{
+    background-image: url(./website2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.three:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+
+}
+.four{
+    background-image: url(./website4.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.four:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+   
+}
+.five{
+    background-image: url(./website5.webp);
+    background-position: left;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.five:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+    
+}
+.six{
+    background-image: url(./website6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    border: black;
+}
+.six:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0,0, 0.3);
+}
